@@ -6,11 +6,16 @@ public class KatoExec_Chapter18 {
 		Kato_Chapter18 ichiro = new KatoIchiro_Chapter18();
 		Kato_Chapter18 hanako = new KatoHanako_Chapter18();
 		
-		taro.execIntroduce();
-		System.out.println();
-		ichiro.execIntroduce();
-		System.out.println();
-		hanako.execIntroduce();
-		
+		 taro.setGivenName();
+	     taro.execIntroduce();
+	     System.out.println();
+
+	     ichiro.setGivenName();
+	     ichiro.execIntroduce();
+	     System.out.println();
+
+	     hanako.setGivenName();
+	     hanako.execIntroduce();
+		 System.out.println();
 	}
 }
